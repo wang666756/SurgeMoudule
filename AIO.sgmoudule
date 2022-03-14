@@ -1,5 +1,6 @@
 #!name=AIO
-#!desc=Surge模块合集
+#!desc=自用Surge模块合集
+#3/14/2022 @Chriswangzz
 
 [Panel]
 
@@ -23,3 +24,4 @@ nf_check = type=generic,script-path=https://gist.githubusercontent.com/Hyseen/b0
 #流量统计
 #应当修改的字段：network : en0→WiFi pdp_ip0→卡1 pdp_ip1→卡2
 TrafficStatistics = type=generic,timeout=10,script-path= https://raw.githubusercontent.com/fishingworld/something/main/PanelScripts/trafficstatistics.js,argument=icon=arrow.up.arrow.down.circle&color=#5d84f8&network=pdp_ip0
+
