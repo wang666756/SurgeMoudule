@@ -4,9 +4,6 @@
 
 [Panel]
 
-#运行时间
-SurgePro_ReloadProfile = type=generic,title="运行时间",timeout=10,script-path=https://raw.githubusercontent.com/ventusoon/ventus/main/Panel/SurgePro.js,argument=icon=checkmark.power.circle.fill&color=#f6c970
-
 #网络信息面板
 net-info-panel=title="网络状态",content="请刷新",style=info,script-name=net-info-panel
 
@@ -17,8 +14,6 @@ TrafficStatistics = script-name=TrafficStatistics, title="流量统计", content
 nf_check = script-name=nf_check, title="Netflix 解锁检测", content="请刷新", update-interval=1
 
 [Script]
-#运行时间
-SurgePro_ReloadProfile = script-name=SurgePro_ReloadProfile, title="启动时长", content="请刷新", update-interval=1
 
 #网络信息面板
 net-info-panel = script-path=https://raw.githubusercontent.com/ventusoon/ventus/main/Panel/Net-info-panel.js,type=generic,script-update-interval=0
